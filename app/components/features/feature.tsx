@@ -33,7 +33,7 @@ const Feature = ({title, description}: Props) => {
         return ()=>{
             window.removeEventListener("mousemove", updateMousePosition)
         }
-    }, [])
+    }, [offsetX, offsetY])
 
     return (
         <div className='border border-white/30 px-4 py-10 text-center rounded-xl sm:flex-1 relative' key={title}>
