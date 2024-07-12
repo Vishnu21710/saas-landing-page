@@ -43,7 +43,7 @@ const LogoTicker = (props: Props) => {
   return (
     <div className='bg-black text-white py-[72px] sm:py-24  '>
         <div className='container '>
-            <h2 className='text-xl text-center text-white text-opacity-70'>Trusted by the world's most innovative teams</h2>
+            <h2 className='text-xl text-center text-white text-opacity-70'>Trusted by the world&apos;s most innovative teams</h2>
             <div className='flex xl:max-w-6xl mx-auto  overflow-hidden mt-9 before:content[""] before:z-10 after:content[""] before:absolute after:absolute before:h-full after:h-full before:w-5 after:w-20 relative before:left-0 after:right-0 before:top-0 after:top-0 before:bg-[linear-gradient(to_right,#000,rgb(0,0,0,0))] after:bg-[linear-gradient(to_left,#000,rgb(0,0,0,0))]'>
                 <motion.div className='flex flex-none gap-16 pr-16'
                 transition={{
